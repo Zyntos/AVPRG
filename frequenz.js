@@ -51,5 +51,5 @@ var allFrequencies = [
 var button1 = document.getElementById("button1");
 button1.addEventListener("click", function(e){
 	document.getElementById("div1").innerHTML = "hallo";
-	document.getElementById("div1").innerHTML = allFrequencies[document.getElementById("inputField").innerHTML];
-});	
+	var zahl = document.getElementById("inputField").getValue;
+	document.getElementById("div1").innerHTML = allFrequencies[zahl];
